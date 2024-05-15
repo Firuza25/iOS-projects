@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB40D9202B93001100016DF2 /* OMGNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D91F2B93001100016DF2 /* OMGNewsApp.swift */; };
+		DB40D9222B93001100016DF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D9212B93001100016DF2 /* ContentView.swift */; };
+		DB40D9242B93001300016DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB40D9232B93001300016DF2 /* Assets.xcassets */; };
+		DB40D9272B93001300016DF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB40D9262B93001300016DF2 /* Preview Assets.xcassets */; };
+		DB40D92E2B93034C00016DF2 /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = DB40D92D2B93034C00016DF2 /* news.json */; };
+		DB40D9312B9303F800016DF2 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D9302B9303F800016DF2 /* Article.swift */; };
+		DB40D9332B930A5600016DF2 /* NewsAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D9322B930A5600016DF2 /* NewsAPIResponse.swift */; };
+		DB40D9362B930BC800016DF2 /* ArticleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D9352B930BC800016DF2 /* ArticleRowView.swift */; };
+		DB40D9382B94397600016DF2 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D9372B94397500016DF2 /* ArticleListView.swift */; };
+		DB40D93A2B97257500016DF2 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D9392B97257500016DF2 /* SafariView.swift */; };
+		DB40D93D2B97377D00016DF2 /* NewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D93C2B97377D00016DF2 /* NewsAPI.swift */; };
+		DB40D9412B974BE800016DF2 /* NewsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D9402B974BE800016DF2 /* NewsTabView.swift */; };
+		DB40D9442B974C3400016DF2 /* ArticleNewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D9432B974C3400016DF2 /* ArticleNewsViewModel.swift */; };
+		DB40D9462B97515900016DF2 /* TopNewsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D9452B97515900016DF2 /* TopNewsTabView.swift */; };
+		DB40D94A2B975A7800016DF2 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D9492B975A7800016DF2 /* DataStore.swift */; };
+		DB40D94C2B975ACE00016DF2 /* BookmarkTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D94B2B975ACE00016DF2 /* BookmarkTabView.swift */; };
+		DB40D94E2B975B0300016DF2 /* EmptyPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D94D2B975B0300016DF2 /* EmptyPlaceholderView.swift */; };
+		DB40D9522B975E3F00016DF2 /* ArticleBookmarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB40D9512B975E3F00016DF2 /* ArticleBookmarkViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB40D91C2B93001100016DF2 /* OMGNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMGNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB40D91F2B93001100016DF2 /* OMGNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMGNewsApp.swift; sourceTree = "<group>"; };
+		DB40D9212B93001100016DF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB40D9232B93001300016DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB40D9262B93001300016DF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB40D92D2B93034C00016DF2 /* news.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
+		DB40D9302B9303F800016DF2 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		DB40D9322B930A5600016DF2 /* NewsAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIResponse.swift; sourceTree = "<group>"; };
+		DB40D9352B930BC800016DF2 /* ArticleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRowView.swift; sourceTree = "<group>"; };
+		DB40D9372B94397500016DF2 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		DB40D9392B97257500016DF2 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		DB40D93C2B97377D00016DF2 /* NewsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPI.swift; sourceTree = "<group>"; };
+		DB40D9402B974BE800016DF2 /* NewsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTabView.swift; sourceTree = "<group>"; };
+		DB40D9432B974C3400016DF2 /* ArticleNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleNewsViewModel.swift; sourceTree = "<group>"; };
+		DB40D9452B97515900016DF2 /* TopNewsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNewsTabView.swift; sourceTree = "<group>"; };
+		DB40D9492B975A7800016DF2 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		DB40D94B2B975ACE00016DF2 /* BookmarkTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTabView.swift; sourceTree = "<group>"; };
+		DB40D94D2B975B0300016DF2 /* EmptyPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPlaceholderView.swift; sourceTree = "<group>"; };
+		DB40D9512B975E3F00016DF2 /* ArticleBookmarkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleBookmarkViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB40D9192B93001100016DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB40D9132B93001100016DF2 = {
+			isa = PBXGroup;
+			children = (
+				DB40D91E2B93001100016DF2 /* OMGNews */,
+				DB40D91D2B93001100016DF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB40D91D2B93001100016DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB40D91C2B93001100016DF2 /* OMGNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB40D91E2B93001100016DF2 /* OMGNews */ = {
+			isa = PBXGroup;
+			children = (
+				DB40D91F2B93001100016DF2 /* OMGNewsApp.swift */,
+				DB40D9212B93001100016DF2 /* ContentView.swift */,
+				DB40D9232B93001300016DF2 /* Assets.xcassets */,
+				DB40D92D2B93034C00016DF2 /* news.json */,
+				DB40D93B2B97375100016DF2 /* API */,
+				DB40D9422B974C1B00016DF2 /* ViewModels */,
+				DB40D9342B930BA100016DF2 /* Views */,
+				DB40D92F2B9303B300016DF2 /* Models */,
+				DB40D9252B93001300016DF2 /* Preview Content */,
+			);
+			path = OMGNews;
+			sourceTree = "<group>";
+		};
+		DB40D9252B93001300016DF2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB40D9262B93001300016DF2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB40D92F2B9303B300016DF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB40D9302B9303F800016DF2 /* Article.swift */,
+				DB40D9322B930A5600016DF2 /* NewsAPIResponse.swift */,
+				DB40D9492B975A7800016DF2 /* DataStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB40D9342B930BA100016DF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB40D9352B930BC800016DF2 /* ArticleRowView.swift */,
+				DB40D9372B94397500016DF2 /* ArticleListView.swift */,
+				DB40D9392B97257500016DF2 /* SafariView.swift */,
+				DB40D9402B974BE800016DF2 /* NewsTabView.swift */,
+				DB40D9452B97515900016DF2 /* TopNewsTabView.swift */,
+				DB40D94B2B975ACE00016DF2 /* BookmarkTabView.swift */,
+				DB40D94D2B975B0300016DF2 /* EmptyPlaceholderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB40D93B2B97375100016DF2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DB40D93C2B97377D00016DF2 /* NewsAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DB40D9422B974C1B00016DF2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DB40D9432B974C3400016DF2 /* ArticleNewsViewModel.swift */,
+				DB40D9512B975E3F00016DF2 /* ArticleBookmarkViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB40D91B2B93001100016DF2 /* OMGNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB40D92A2B93001300016DF2 /* Build configuration list for PBXNativeTarget "OMGNews" */;
+			buildPhases = (
+				DB40D9182B93001100016DF2 /* Sources */,
+				DB40D9192B93001100016DF2 /* Frameworks */,
+				DB40D91A2B93001100016DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMGNews;
+			productName = OMGNews;
+			productReference = DB40D91C2B93001100016DF2 /* OMGNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB40D9142B93001100016DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DB40D91B2B93001100016DF2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DB40D9172B93001100016DF2 /* Build configuration list for PBXProject "OMGNews" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB40D9132B93001100016DF2;
+			productRefGroup = DB40D91D2B93001100016DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB40D91B2B93001100016DF2 /* OMGNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB40D91A2B93001100016DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB40D92E2B93034C00016DF2 /* news.json in Resources */,
+				DB40D9272B93001300016DF2 /* Preview Assets.xcassets in Resources */,
+				DB40D9242B93001300016DF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB40D9182B93001100016DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB40D9222B93001100016DF2 /* ContentView.swift in Sources */,
+				DB40D9382B94397600016DF2 /* ArticleListView.swift in Sources */,
+				DB40D94E2B975B0300016DF2 /* EmptyPlaceholderView.swift in Sources */,
+				DB40D9362B930BC800016DF2 /* ArticleRowView.swift in Sources */,
+				DB40D9412B974BE800016DF2 /* NewsTabView.swift in Sources */,
+				DB40D9202B93001100016DF2 /* OMGNewsApp.swift in Sources */,
+				DB40D9462B97515900016DF2 /* TopNewsTabView.swift in Sources */,
+				DB40D94A2B975A7800016DF2 /* DataStore.swift in Sources */,
+				DB40D9332B930A5600016DF2 /* NewsAPIResponse.swift in Sources */,
+				DB40D9312B9303F800016DF2 /* Article.swift in Sources */,
+				DB40D93A2B97257500016DF2 /* SafariView.swift in Sources */,
+				DB40D93D2B97377D00016DF2 /* NewsAPI.swift in Sources */,
+				DB40D9442B974C3400016DF2 /* ArticleNewsViewModel.swift in Sources */,
+				DB40D94C2B975ACE00016DF2 /* BookmarkTabView.swift in Sources */,
+				DB40D9522B975E3F00016DF2 /* ArticleBookmarkViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB40D9282B93001300016DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB40D9292B93001300016DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB40D92B2B93001300016DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OMGNews/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firuza.OMGNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB40D92C2B93001300016DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OMGNews/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firuza.OMGNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB40D9172B93001100016DF2 /* Build configuration list for PBXProject "OMGNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB40D9282B93001300016DF2 /* Debug */,
+				DB40D9292B93001300016DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB40D92A2B93001300016DF2 /* Build configuration list for PBXNativeTarget "OMGNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB40D92B2B93001300016DF2 /* Debug */,
+				DB40D92C2B93001300016DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB40D9142B93001100016DF2 /* Project object */;
+}
