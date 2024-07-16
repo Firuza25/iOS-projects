@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>33</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>32</string>
+					<key>Timestamp</key>
+					<string>736988544.0056</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>EventApp/Models/ProductsModel.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>}
+</string>
+				<key>leading</key>
+				<string>    
+    
+</string>
+				<key>trailing</key>
+				<string>
+var sampleProducts: [ProductsModel] = [
+    .init(id: "a", category: "Concerts", title: "Concert 'MOT'", description: "MOT is the main modern lyricist of the country. An artist whose songs are recognized from the first words thanks to an original poetic style, deep philosophy in the lyrics and easy-to-remember melodies. He harmoniously combines in his work both soulful love ballads and dance bangers in the style of hip-hop and RnB.", images: ["https://ticketon.kz/files/media/5194u55201_mot-yvvy465564564564654546.jpg","https://ticketon.kz/files/media/5194u55201_mot-yvvy465564564.jpg","https://ticketon.kz/files/media/5194u55201_mot-yvvy465564564rr.jpg"], time: Calendar.current.date(from: DateComponents(year: 2024, month: 4, day: 10, hour: 20, minute: 0)) ?? Date(), ageLimit: "15+", priceRange: [10_000, 15_000, 25_000], city: "Almaty", reviews: [sampleReview, sampleReview]),
+</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>
